@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="banner">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://cdn3.vectorstock.com/i/thumb-large/22/72/vintage-skiing-label-badge-and-design-elements-vector-13702272.jpg"
+                    width="50" height="50" class="d-inline-block align-top" alt="A mountain logo">
+            </a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>CREATE YOUR OWN SKI RESORT</h1>
+        <P>SCROLL DOWN TO BEGIN YOUR DREAMS</P>
+    </div>
+
+    <hr>
+    <div class="container">
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-resort-name">Create Ski Resort Name</label>
+                            <input type="text" class="form-control" id="new-resort-name">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="new-resort" class="btn btn-secondary form-control">Create</button>
+            </div>
+        </div><br>
+
+        <div id="runs">
+
+        </div>
+    </div>
+    <hr>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Copyright 2021
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="resorts.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
